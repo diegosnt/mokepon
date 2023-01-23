@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&family=Press+Start+2P&display=swap");
+
+body {
+  /* font-family: 'Rajdhani', sans-serif; */
+  font-family: "Hind Vadodara", sans-serif;
+
+  background-color: #ff7000;
+}
+/* #10a19d */
+
+#seleccionar-mascota {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  color: white;
+  font-size: 32px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.subtitulo {
+  color: white;
+  font-size: 30px;
+}
+
+.tarjetas {
+  display: flex;
+  gap: 10px;
+}
+
+.tarjeta-de-mokepon {
+  width: 200px;
+  height: 100px;
+  background: #540375;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+.tarjeta-de-mokepon img {
+  width: 80px;
+}
+
+#boton-mascota {
+  border-radius: 20px;
+  width: 400px;
+  height: 50px;
+  background-color: transparent;
+  border: 5px solid #ffbf00;
+  margin-top: 30px;
+  color: white;
+  font-family: "Hind Vadodara", sans-serif;
+  font-size: 20px;
+}
+
+input {
+  display: none;
+}
+
+#seleccionar-ataque{
+  flex-direction: column;
+  align-items: center;
+}
